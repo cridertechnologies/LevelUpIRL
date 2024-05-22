@@ -1,4 +1,4 @@
-package com.cridertechnologies.levelupirl.levelupirl
+package com.cridertechnologies.levelupirl
 
 import io.flutter.embedding.android.FlutterActivity
 

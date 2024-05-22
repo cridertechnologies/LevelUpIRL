@@ -14,10 +14,7 @@ class CharacterBloc extends Bloc<CharacterEvent, CharacterState> {
     try{
       final character = CharacterModel(
         name: event.name,
-        hairColor: event.hairColor,
-        eyeColor: event.eyeColor,
-        skinColor: event.skinColor,
-        hairStyle: event.hairStyle,
+        avatarModel: event.avatarModel,
       );
       // Save to Firebase
       final db = Database();

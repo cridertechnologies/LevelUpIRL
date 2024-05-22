@@ -1,4 +1,5 @@
 import 'package:equatable/equatable.dart';
+import 'package:levelupirl/models/avatar_model.dart';
 
 abstract class CharacterEvent extends Equatable {
   const CharacterEvent();
@@ -9,19 +10,13 @@ abstract class CharacterEvent extends Equatable {
 
 class CreateCharacter extends CharacterEvent{
   final String name;
-  final String hairColor;
-  final String eyeColor;
-  final String skinColor;
-  final String hairStyle;
+  final AvatarModel avatarModel;
 
   const CreateCharacter({
     required this.name,
-    required this.hairColor,
-    required this.eyeColor,
-    required this.skinColor,
-    required this.hairStyle,
+    required this.avatarModel,
   });
 
   @override
-  List<Object> get props => [name, hairColor, eyeColor, skinColor, hairStyle];
+  List<Object> get props => [name, avatarModel];
 }
