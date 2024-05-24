@@ -8,10 +8,10 @@ TBD - We're still in the planning stages!
 Coming Soon!
 
 ## Technologies Used
-This app is built using Flutter 3.22.0, with Firebase as the backend. By leveraging Flutter, we are able to build both an iOS and Android app from a single codebase.
+This app is built natively for both Android and iOS due to the security and other intricacies of accessing health data (like step count and heart rate) on each platform. Both projects leverage Firebase as the backend.
 
 ## Installation and Usage
-In order to run this project locally, you will need to create `lib/firebase_options.dart` with your own Firebase configuration settings. Find out more on the [Firebase documentation page](https://firebase.google.com/docs/flutter/setup).
+TBD
 
 ## Contribution Guildelines
 We are not currently accepting PRs, but please feel free to create an issue if you're having a problem!
