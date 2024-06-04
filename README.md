@@ -1,5 +1,5 @@
 <p align="center">
-  !(LevelUP IRL Logo)[assets/LevelUpIRL_Logo.png]
+    <img src="assets/LevelUpIRL_Logo.png" width="100" />
 </p>
 <p align="center">
     <h1 align="center">LevelUp IRL</h1>
