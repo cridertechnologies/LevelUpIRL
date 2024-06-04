@@ -13,6 +13,7 @@ dependencies:
   firebase_analytics: ^10.10.5
   firebase_auth: ^4.19.5
   firebase_storage: ^11.7.5
+  health: ^10.2.0
 
 dev_dependencies:
   flutter_test:
