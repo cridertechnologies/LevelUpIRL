@@ -1,17 +1,7 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:levelupirl/firebase_options.dart';
-import 'package:levelupirl/screens/progress_tracker_screen.dart';
+import 'package:levelupirl/utils/app_theme.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  // Initialize Firebase
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-  // Bloc observers
-
+void main() {
   runApp(const MainApp());
 }
 
@@ -21,10 +11,12 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/',
-      routes: {
-        '/': (context) => const ProgressTrackerScreen(),
-      },
+      theme: AppTheme.theme,
+      home: const Scaffold(
+        body: Center(
+          child: Text('Hello World!'),
+        ),
+      ),
     );
   }
 }
